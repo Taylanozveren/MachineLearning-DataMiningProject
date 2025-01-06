@@ -1,0 +1,2 @@
+timestamp,rmse,model_name,params
+2024-12-15 20:42:55.216356,41.730704633786246,best_gbr_model_20241215_204249.pkl,"{'learning_rate': 0.1, 'max_depth': 7, 'min_samples_split': 5, 'n_estimators': 200}"

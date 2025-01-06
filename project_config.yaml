@@ -1,0 +1,54 @@
+project:
+  name: Python Data Mining Project
+  version: 1.0
+  description: Bu proje, müşteri segmentasyonu, zaman serisi tahmini ve makine öğrenimi modellerini içerir.
+
+dependencies:
+  python_version: ">=3.8"
+  libraries:
+    - pandas
+    - numpy
+    - matplotlib
+    - seaborn
+    - scikit-learn
+    - fbprophet
+    - xgboost
+    - lightgbm
+    - catboost
+
+data:
+  input_files:
+    - customer_data.csv
+    - sales_data.csv
+  output_files:
+    - clustered_data.csv
+    - forecasting_results.csv
+    - model_comparison_results.csv
+
+models:
+  regression:
+    - RandomForestRegressor
+    - GradientBoostingRegressor
+    - XGBRegressor
+    - LGBMRegressor
+    - CatBoostRegressor
+  clustering: KMeans
+  forecasting: Prophet
+
+tasks:
+  - Customer segmentation using KMeans
+  - AvgOrderValue prediction using regression models
+  - Time series forecasting for sales using Prophet
+  - Model comparison for regression tasks
+
+results:
+  cluster_analysis:
+    largest_cluster: "Cluster 3 (%60.5)"
+    smallest_cluster: "Cluster 9 (%0.07, VIP segment)"
+  forecasting:
+    next_6_months_total_sales: "2,693,810.84"
+    next_6_months_avg_daily_sales: "14,965.62"
+
+author:
+  name: [Taylan Özveren]
+  email: [taylan.ozveren@std.yeditepe.edu.tr]

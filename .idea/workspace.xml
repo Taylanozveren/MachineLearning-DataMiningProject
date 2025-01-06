@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="faf67ccc-3fed-418b-89dd-a2f116bfda78" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/pythonProjectDataMining.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scratch_1.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExportToHTMLSettings">
+    <option name="printScope" value="1" />
+    <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$/exportToHTML" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2oFFQDJTWmwzXCY0jPorp8j4UDY" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Win10/PycharmProjects/pythonProjectDataMining&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;Python&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Win10\PycharmProjects\pythonProjectDataMining" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="pythonProjectDataMining" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-PY-242.23726.102" />
+        <option value="bundled-python-sdk-5e1850174b45-399fe30bd8c1-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-242.23726.102" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="faf67ccc-3fed-418b-89dd-a2f116bfda78" name="Changes" comment="" />
+      <created>1730457399666</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1730457399666</updated>
+      <workItem from="1730457402535" duration="3826000" />
+      <workItem from="1730585213826" duration="10915000" />
+      <workItem from="1730662390162" duration="1696000" />
+      <workItem from="1730986637387" duration="3854000" />
+      <workItem from="1731396521519" duration="6397000" />
+      <workItem from="1731416168747" duration="2581000" />
+      <workItem from="1731531953821" duration="5766000" />
+      <workItem from="1732194801405" duration="5435000" />
+      <workItem from="1732624605061" duration="39463000" />
+      <workItem from="1732819360525" duration="591000" />
+      <workItem from="1732819995876" duration="1058000" />
+      <workItem from="1733395092199" duration="27000" />
+      <workItem from="1733395142802" duration="116000" />
+      <workItem from="1733395300419" duration="30000" />
+      <workItem from="1733395487303" duration="5932000" />
+      <workItem from="1733405855447" duration="6306000" />
+      <workItem from="1733518813673" duration="138000" />
+      <workItem from="1733672180364" duration="29394000" />
+      <workItem from="1734280377264" duration="10798000" />
+      <workItem from="1734291546899" duration="1391000" />
+      <workItem from="1734293066637" duration="227000" />
+      <workItem from="1734338954324" duration="2985000" />
+      <workItem from="1734363248834" duration="914000" />
+      <workItem from="1734364712861" duration="57000" />
+      <workItem from="1734364949369" duration="1036000" />
+      <workItem from="1734472693255" duration="90000" />
+      <workItem from="1734541105096" duration="6395000" />
+      <workItem from="1734554003269" duration="5433000" />
+      <workItem from="1734614421641" duration="6671000" />
+      <workItem from="1734850459671" duration="16718000" />
+      <workItem from="1735216494590" duration="10683000" />
+      <workItem from="1735409185157" duration="6301000" />
+      <workItem from="1735416911689" duration="2215000" />
+      <workItem from="1735502168590" duration="66000" />
+      <workItem from="1735502491754" duration="907000" />
+      <workItem from="1735587608263" duration="12259000" />
+      <workItem from="1735605483956" duration="2901000" />
+      <workItem from="1735751305064" duration="629000" />
+      <workItem from="1735752142842" duration="363000" />
+      <workItem from="1735766368395" duration="16028000" />
+      <workItem from="1735782943529" duration="61000" />
+      <workItem from="1735805874338" duration="4033000" />
+      <workItem from="1735810927716" duration="1911000" />
+      <workItem from="1735812934073" duration="3050000" />
+      <workItem from="1735816370690" duration="3543000" />
+      <workItem from="1735820191147" duration="705000" />
+      <workItem from="1735823655692" duration="7158000" />
+      <workItem from="1735832671657" duration="2022000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
