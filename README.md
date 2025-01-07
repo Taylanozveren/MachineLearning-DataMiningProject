@@ -65,13 +65,10 @@ Forecasting Scripts	Performs time-series forecasting using Prophet to predict fu
 1. Install Requirements
 Ensure you have Python and the necessary libraries:
 
-bash
-Kodu kopyala
 pip install pandas numpy matplotlib seaborn scikit-learn statsmodels prophet
 (Optional) For additional models:
 
-bash
-Kodu kopyala
+
 pip install xgboost lightgbm catboost
 2. Place the Dataset
 Ensure OnlineRetail.xlsx is in the correct directory. Adjust file paths in the code if necessary.
@@ -107,4 +104,4 @@ Enhance customer satisfaction through personalized recommendations.
 Plan inventory and budgets effectively with accurate forecasts.
 Feel free to fork, contribute, or raise issues for further improvements. Let’s unlock the power of data-driven insights together! 🚀
 
-This version improves table formatting and code block rendering for easier copy-pasting while maintaining clarity and professionalism. Let me know if you'd like further adjustments!
+
