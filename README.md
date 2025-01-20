@@ -1,155 +1,107 @@
-Machine Learning & Data Mining Project
+Online Retail Data Mining & Analytics Project
+🚀 Overview
+This project explores an Online Retail dataset with transactional records from an e-commerce business. The primary goal is to leverage data mining and machine learning techniques to uncover actionable insights into customer behavior, optimize marketing strategies, and forecast future sales.
 
-Project Overview
+Using a combination of RFM metrics, customer segmentation, recommendation systems, and time-series forecasting, this repository provides a comprehensive pipeline to turn raw data into meaningful business strategies.
 
-This project analyzes the Online Retail Dataset using Python to perform:
-
-Data preprocessing: Handling missing values, outliers, and duplicates.
-
-Exploratory Data Analysis (EDA): Generating insights about customer and product behavior.
-
-Advanced analytics: RFM (Recency, Frequency, Monetary) metrics calculation and customer segmentation.
-
-Statistical and visual insights: Distribution of sales, returns, and trends.
-
-Advanced systems: Product recommendation system and time-series sales forecasting.
-
-Dataset
-
-The dataset, "OnlineRetail.xlsx," contains:
-
-InvoiceNo: Transaction identifier.
-
-StockCode: Product code.
-
-Description: Product description.
-
-Quantity: Quantity of product sold.
-
-InvoiceDate: Date of transaction.
-
-UnitPrice: Price per product unit.
-
-CustomerID: Unique identifier for customers.
-
-Country: Country of the transaction.
-
-Key Features
-
-1. Data Preprocessing
-
-Handling Missing Values: Missing CustomerID rows were removed. Missing Description values were filled using the mode of StockCode.
-
-Outlier Removal: Implemented the Interquartile Range (IQR) method for numerical columns.
-
-Duplicate Removal: Identified and removed duplicate rows.
-
+🛠️ Project Pipeline
+1. Data Import & Cleaning
+Load the dataset (OnlineRetail.xlsx) into a Pandas DataFrame.
+Handle missing values (CustomerID and Description), remove duplicates, and detect outliers.
+Compute TotalPrice = Quantity × UnitPrice.
 2. Exploratory Data Analysis (EDA)
-
-Generated descriptive statistics for numerical and categorical columns.
-
-Analyzed correlations to identify multicollinearity issues.
-
-Visualized distributions of key metrics.
-
-3. Advanced Analytics
-
-RFM Metrics:
-
+Summarize metrics like spending patterns by Country, CustomerID, and InvoiceNo.
+Identify and separate returns (negative Quantity or Price) to compute ReturnRate and ReturnCount.
+Visualize distributions with histograms, boxplots, and heatmaps to detect anomalies.
+3. RFM Metrics & Feature Engineering
 Recency: Days since the last purchase.
-
 Frequency: Number of unique transactions.
+Monetary: Total spending per customer.
+Additional Metrics:
+Average Order Value (AvgOrderValue).
+Approximate Customer Lifetime Value (CLV) using a discount factor.
+LoyaltyScore: Combines frequency and return rate for customer loyalty insights.
+4. Customer Segmentation
+Cluster customers using KMeans on PCA-reduced features (e.g., Recency, Frequency, CLV).
+Manually assign high-value outliers (e.g., VIP customers) to a separate cluster.
+Visualize clusters with PCA scatterplots and analyze their behavior.
+5. Recommendation Systems
+Collaborative Filtering: Suggest products based on customer similarity (user-user).
+Content-Based Filtering: Recommend similar products using metadata (Price, Popularity, Category, Brand).
+Output: Personalized product suggestions for customers and related item recommendations.
+6. Predictive Modeling
+Build a GradientBoostingRegressor to predict AvgOrderValue using features like Recency, Frequency, and CLV.
+Perform hyperparameter tuning with GridSearchCV and compare with baseline models (RandomForest, XGBoost, etc.).
+Evaluate performance with metrics like RMSE and feature importance.
+7. Time-Series Forecasting (Prophet)
+Aggregate invoices into daily sales data (TotalPrice).
+Use Prophet to:
+Forecast future sales and trends (next 6 months).
+Evaluate the forecast on recent data with RMSE.
+Incorporate seasonality and holiday effects into predictions.
+📈 Insights & Strategy
+What We Achieve:
+Customer Segmentation:
 
-Monetary: Total spending.
+Identify high-value customers and target them with VIP campaigns.
+Spot high-return customers to improve product descriptions and reduce friction.
+Sales Trends:
 
-Returns Analysis:
+Highlight seasonal or monthly spending patterns to align inventory and marketing strategies.
+Forecast future sales for better budget planning.
+Personalized Recommendations:
 
-Return rate, return count, and total return amount per customer.
+Improve user experience by suggesting relevant products.
+Boost cross-selling and up-selling opportunities.
+📂 Key Files
+File	Description
+OnlineRetail.xlsx	Raw transactional data containing details like InvoiceNo, CustomerID, Quantity, and UnitPrice.
+purchase_data.csv	Derived from non-return transactions, used for recommendation systems.
+product_metadata.csv	Enriched product data (Price, Popularity, Category, Brand) for similarity-based recommendations.
+RFM Scripts	Calculates RFM metrics, clusters customers, and stores segmentation results.
+Recommendation Scripts	Implements collaborative filtering and content-based product similarity algorithms.
+Forecasting Scripts	Performs time-series forecasting using Prophet to predict future sales and trends.
+🛠️ How to Run
+1. Install Requirements
+Ensure you have Python and the necessary libraries:
 
-Log-transformed skewed variables for better interpretability.
+pip install pandas numpy matplotlib seaborn scikit-learn statsmodels prophet
+(Optional) For additional models:
 
-4. Insights and Visualizations
 
-Boxplots, heatmaps, and histograms to uncover data trends.
+pip install xgboost lightgbm catboost
+2. Place the Dataset
+Ensure OnlineRetail.xlsx is in the correct directory. Adjust file paths in the code if necessary.
 
-Time-series analysis of sales trends.
+3. Execute Scripts
+Run the Python scripts or Jupyter notebooks in order:
 
-5. Product Recommendation System
+Load and clean the dataset.
+Perform EDA and outlier removal.
+Build RFM metrics and segment customers.
+Generate recommendations and predictive models.
+Forecast future sales with Prophet.
+4. Review Outputs
+Plots: Visualize distributions, clusters, and trends.
+Recommendations: Explore suggested products for sample customers.
+Forecast Charts: Analyze sales seasonality and trends.
+🔍 Future Enhancements
+Advanced Outlier Detection: Use IsolationForest or domain-specific thresholds for more precise outlier handling.
+Hybrid Recommendations: Combine collaborative and content-based approaches into a single system.
+Time-Based Validation: Implement rolling or expanding windows for time-sensitive predictive tasks.
+Holiday Regressors: Add holiday or event calendars to improve Prophet’s forecasting accuracy.
+Dynamic CLV Models: Build customer lifetime value models that adapt to behavior changes over time.
+🌟 Real-World Applications
+Customer Relationship Management (CRM): Leverage RFM metrics for personalized marketing and loyalty programs.
+Inventory Management: Optimize stock levels using demand forecasts from time-series analysis.
+Revenue Growth: Enhance revenue with personalized recommendations and targeted campaigns.
+Strategic Planning: Use forecasts to align resources for peak sales periods.
+🙌 Conclusion
+This project demonstrates a complete data mining pipeline, combining RFM segmentation, clustering, recommendations, and forecasting to unlock the power of transactional data. Businesses can:
 
-Implemented a collaborative filtering-based recommendation system.
+Optimize marketing efforts with actionable customer insights.
+Enhance customer satisfaction through personalized recommendations.
+Plan inventory and budgets effectively with accurate forecasts.
+Feel free to fork, contribute, or raise issues for further improvements. Let’s unlock the power of data-driven insights together! 🚀
 
-Leveraged customer-product interaction data to suggest products based on similarity.
 
-Generated recommendations for selected customers and analyzed their purchase behavior.
-
-6. Time-Series Forecasting
-
-Utilized Prophet for forecasting daily total sales.
-
-Trained the model on historical sales data and predicted the next six months' trends.
-
-Visualized forecast results and calculated Root Mean Squared Error (RMSE) for the test set.
-
-Installation and Requirements
-
-Clone this repository:
-
-git clone https://github.com/Taylanozveren/MachineLearning-DataMiningProject.git
-
-Install required libraries:
-
-pip install -r requirements.txt
-
-Usage
-
-Place the dataset (OnlineRetail.xlsx) in the root directory.
-
-Run the script:
-
-python main.py
-
-Outputs include:
-
-Cleaned dataset.
-
-CSV files for missing CustomerID rows and duplicates.
-
-Visualizations, RFM analysis, product recommendations, and time-series forecasts.
-
-Results
-
-Key Findings
-
-Customer Behavior: Identified high-value customer segments using RFM metrics.
-
-Product Insights: Popular and underperforming products.
-
-Returns: Key patterns in product returns and strategies to reduce return rates.
-
-Recommendations: Suggested personalized product recommendations for customers.
-
-Forecasts: Predicted future sales trends and seasonal behaviors.
-
-Strategic Recommendations
-
-Focus marketing efforts on high RFM-score customers.
-
-Address high-return products with better descriptions and policies.
-
-Utilize sales forecasts to optimize inventory and plan marketing campaigns.
-
-Leverage product recommendations to boost cross-selling and up-selling opportunities.
-
-Future Work
-
-Implement advanced clustering algorithms for deeper customer segmentation.
-
-Enhance the recommendation system with hybrid models.
-
-Incorporate predictive models for Customer Lifetime Value (CLV).
-
-Explore automated anomaly detection for sales trends.
-
-Contributors
-
-Taylan Özveren
