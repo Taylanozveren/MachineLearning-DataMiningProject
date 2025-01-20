@@ -4,8 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="faf67ccc-3fed-418b-89dd-a2f116bfda78" name="Changes" comment="">
+    <list default="true" id="faf67ccc-3fed-418b-89dd-a2f116bfda78" name="Changes" comment="workspace.xml">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClusterKeyMetrics.png" beforeDir="false" afterPath="$PROJECT_DIR$/ClusterKeyMetrics.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectCodesscratch_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectCodesscratch_1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rfm_segmented_with_month.csv" beforeDir="false" afterPath="$PROJECT_DIR$/rfm_segmented_with_month.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scratch_1.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +22,21 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Taylanozveren&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Taylanozveren/MachineLearning-DataMiningProject.git&quot;,
+    &quot;accountId&quot;: &quot;dd0633ad-59af-4f3c-8311-a649d4d9680a&quot;
+  }
+}</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
@@ -172,11 +191,34 @@
       <workItem from="1736192156534" duration="2802000" />
       <workItem from="1736198260533" duration="4676000" />
       <workItem from="1736203663464" duration="1943000" />
+      <workItem from="1736206381293" duration="401000" />
+      <workItem from="1736206832841" duration="807000" />
+      <workItem from="1736365912239" duration="2306000" />
+      <workItem from="1736369694654" duration="1097000" />
+      <workItem from="1736376275585" duration="2327000" />
+      <workItem from="1736420079539" duration="2205000" />
+      <workItem from="1737200518535" duration="3071000" />
+      <workItem from="1737392231545" duration="525000" />
+      <workItem from="1737394287587" duration="988000" />
+      <workItem from="1737395510830" duration="238000" />
     </task>
+    <task id="LOCAL-00001" summary="workspace.xml">
+      <option name="closed" value="true" />
+      <created>1736206597581</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1736206597582</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="workspace.xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="workspace.xml" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/pythonProjectDataMining$scratch_1.coverage" NAME="scratch_1 Coverage Results" MODIFIED="1736193557209" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
