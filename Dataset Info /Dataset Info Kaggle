@@ -1,5 +1,0 @@
-Original Dataset;
-
-## Dataset
-This project uses the [Customer Segmentation Dataset](https://www.kaggle.com/datasets/yasserh/customer-segmentation-dataset) from Kaggle.  
-Please download the dataset and place it in the `data` folder of this project.
