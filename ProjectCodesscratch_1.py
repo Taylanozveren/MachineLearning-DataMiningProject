@@ -1033,9 +1033,8 @@ def base_models_comparison(X, y, scoring=('neg_mean_squared_error', 'r2', 'neg_m
     - GradientBoosting
     - (Optionally XGB, LGB, CatBoost if installed)
     """
-    models = {}
-    models["RandomForest"] = RandomForestRegressor(random_state=42)
-    models["GradientBoosting"] = GradientBoostingRegressor(random_state=42)
+    models = {"RandomForest": RandomForestRegressor(random_state=42),
+              "GradientBoosting": GradientBoostingRegressor(random_state=42)}
 
     if xgb_installed:
         from xgboost import XGBRegressor
@@ -1093,9 +1092,7 @@ print(bm_results)
 
 random_search_example(X_reg, y_reg)
 
-import sklearn
 
-print(sklearn.__version__)
 
 # Results and Recommendations
 # RandomForest vs. GradientBoosting Comparison
@@ -1108,10 +1105,6 @@ print(sklearn.__version__)
 ###############################################################################
 # STEP X: FUTURE ENHANCEMENTS & REFACTORING IDEAS
 ###############################################################################
-"""
-Below are potential enhancements and ideas for improving or refactoring
-the project without disrupting the current working structure:
-"""
 
 # 1) Improve time-series splits for certain predictive tasks:
 #    - Use rolling or expanding windows instead of random splits
