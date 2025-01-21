@@ -10,14 +10,14 @@ Load the dataset (OnlineRetail.xlsx) into a Pandas DataFrame.
 Handle missing values (CustomerID and Description), remove duplicates, and detect outliers.
 Compute TotalPrice = Quantity × UnitPrice.
 Visual Example: Outlier Detection
-<img src="images/BoxPlotsOutlier.PNG" alt="Box Plots for Outlier Detection" width="600">
+<img src="DataMiningProjectGraphs/BoxPlotsOutlier.PNG" alt="Box Plots for Outlier Detection" width="600">
 
 2. Exploratory Data Analysis (EDA)
 Summarize metrics like spending patterns by Country, CustomerID, and InvoiceNo.
 Identify and separate returns (negative Quantity or Price) to compute ReturnRate and ReturnCount.
 Visualize distributions with histograms, boxplots, and heatmaps to detect anomalies.
 Visual Example: Correlation Matrix Heatmap
-<img src="images/CorelationMatrixHeatMap.PNG" alt="Correlation Matrix Heatmap" width="600">
+<img src="DataMiningProjectGraphs/CorelationMatrixHeatMap.PNG" alt="Correlation Matrix Heatmap" width="600">
 
 3. RFM Metrics & Feature Engineering
 Recency: Days since the last purchase.
@@ -28,28 +28,30 @@ Average Order Value (AvgOrderValue).
 Approximate Customer Lifetime Value (CLV) using a discount factor.
 LoyaltyScore: Combines frequency and return rate for customer loyalty insights.
 Visual Example: RFM Metrics Breakdown
-<img src="images/RFMGraphs.PNG" alt="RFM Metrics" width="600">
+<img src="DataMiningProjectGraphs/RFMGraphs.PNG" alt="RFM Metrics" width="600">
 
 4. Customer Segmentation
 Cluster customers using KMeans on PCA-reduced features (e.g., Recency, Frequency, CLV).
 Manually assign high-value outliers (e.g., VIP customers) to a separate cluster.
 Visualize clusters with PCA scatterplots and analyze their behavior.
 Visual Example: Customer Segmentation with KMeans
-<img src="images/ClusterDist.k5+9.PNG" alt="KMeans Clusters" width="600">
+<img src="DataMiningProjectGraphs/ClusterDist.k5+9.PNG" alt="Customer Clusters" width="600">
 
 5. Recommendation Systems
 Collaborative Filtering: Suggest products based on customer similarity (user-user).
 Content-Based Filtering: Recommend similar products using metadata (Price, Popularity, Category, Brand).
 Output: Personalized product suggestions for customers and related item recommendations.
 Visual Example: Collaborative Recommendations
-<img src="images/CFRecommend.PNG" alt="Collaborative Filtering Recommendations" width="600">
+<img src="DataMiningProjectConsoleOutputs/CFRecommend.PNG" alt="Content-Based Recommendations" width="600">
+
 
 6. Predictive Modeling
 Build a GradientBoostingRegressor to predict AvgOrderValue using features like Recency, Frequency, and CLV.
 Perform hyperparameter tuning with GridSearchCV and compare with baseline models (RandomForest, XGBoost, etc.).
 Evaluate performance with metrics like RMSE and feature importance.
 Visual Example: RMSE and Feature Importance
-<img src="images/RMSE-FeatureImportance.PNG" alt="Predictive Modeling Results" width="600">
+<img src="DataMiningProjectConsoleOutputs/RMSE-FeatureImportance.PNG" alt="Predictive Modeling RMSE and Features" width="600">
+
 
 7. Time-Series Forecasting (Prophet)
 Aggregate invoices into daily sales data (TotalPrice).
@@ -58,7 +60,8 @@ Forecast future sales and trends (next 6 months).
 Evaluate the forecast on recent data with RMSE.
 Incorporate seasonality and holiday effects into predictions.
 Visual Example: Prophet Forecast for the Next 6 Months
-<img src="images/ProphetForecastNext6Months.PNG" alt="Prophet Forecast" width="600">
+<img src="DataMiningProjectGraphs/ProphetForecastNext6Months.PNG" alt="Prophet Forecast" width="600">
+
 
 📈 Insights & Strategy
 What We Achieve:
