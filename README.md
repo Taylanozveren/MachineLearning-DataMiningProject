@@ -35,7 +35,7 @@ Cluster customers using KMeans on PCA-reduced features (e.g., Recency, Frequency
 Manually assign high-value outliers (e.g., VIP customers) to a separate cluster.
 Visualize clusters with PCA scatterplots and analyze their behavior.
 Visual Example: Customer Segmentation with KMeans
-<img src="DataMiningProjectGraphs/ClusterDist.k5+9.PNG" alt="Customer Clusters" width="600">
+<img src="DataMiningProjectGraphs/ClusterDist.k5+9.PNG" alt="Customer Clusters" width="400">
 
 5. Recommendation Systems
 Collaborative Filtering: Suggest products based on customer similarity (user-user).
