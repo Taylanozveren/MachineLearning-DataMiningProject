@@ -17,7 +17,7 @@ Summarize metrics like spending patterns by Country, CustomerID, and InvoiceNo.
 Identify and separate returns (negative Quantity or Price) to compute ReturnRate and ReturnCount.
 Visualize distributions with histograms, boxplots, and heatmaps to detect anomalies.
 Visual Example: Correlation Matrix Heatmap
-<img src="DataMiningProjectGraphs/LogTotalPriceDist.PNG" alt="Log Total Price Distribution" width="600">
+<img src="DataMiningProjectGraphs/LogTotalPriceDist..PNG" alt="Log Total Price Distribution" width="500">
 
 3. RFM Metrics & Feature Engineering
 Recency: Days since the last purchase.
@@ -28,7 +28,7 @@ Average Order Value (AvgOrderValue).
 Approximate Customer Lifetime Value (CLV) using a discount factor.
 LoyaltyScore: Combines frequency and return rate for customer loyalty insights.
 Visual Example: RFM Metrics Breakdown
-<img src="DataMiningProjectGraphs/RFMGraphs.PNG" alt="RFM Metrics" width="600">
+<img src="DataMiningProjectGraphs/RFMGraphs.PNG" alt="RFM Metrics" width="500">
 
 4. Customer Segmentation
 Cluster customers using KMeans on PCA-reduced features (e.g., Recency, Frequency, CLV).
@@ -42,7 +42,7 @@ Collaborative Filtering: Suggest products based on customer similarity (user-use
 Content-Based Filtering: Recommend similar products using metadata (Price, Popularity, Category, Brand).
 Output: Personalized product suggestions for customers and related item recommendations.
 Visual Example: Collaborative Recommendations
-<img src="DataMiningProjectConsoleOutputs/CFRecommend.PNG" alt="Content-Based Recommendations" width="600">
+<img src="DataMiningProjectConsoleOutputs/CFRecommend.PNG" alt="Content-Based Recommendations" width="500">
 
 
 6. Predictive Modeling
@@ -50,7 +50,7 @@ Build a GradientBoostingRegressor to predict AvgOrderValue using features like R
 Perform hyperparameter tuning with GridSearchCV and compare with baseline models (RandomForest, XGBoost, etc.).
 Evaluate performance with metrics like RMSE and feature importance.
 Visual Example: RMSE and Feature Importance
-<img src="DataMiningProjectConsoleOutputs/PredictiveAVGValue.PNG" alt="Predictive Avg Order Value" width="600">
+<img src="DataMiningProjectConsoleOutputs/PredictiveAVGValue.PNG" alt="Predictive Avg Order Value" width="500">
 
 
 7. Time-Series Forecasting (Prophet)
@@ -60,7 +60,7 @@ Forecast future sales and trends (next 6 months).
 Evaluate the forecast on recent data with RMSE.
 Incorporate seasonality and holiday effects into predictions.
 Visual Example: Prophet Forecast for the Next 6 Months
-<img src="DataMiningProjectGraphs/ProphetForecastNext6Months.PNG" alt="Prophet Forecast" width="600">
+<img src="DataMiningProjectGraphs/ProphetForecastNext6Months.PNG" alt="Prophet Forecast" width="500">
 
 
 📈 Insights & Strategy
