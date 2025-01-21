@@ -17,7 +17,7 @@ Summarize metrics like spending patterns by Country, CustomerID, and InvoiceNo.
 Identify and separate returns (negative Quantity or Price) to compute ReturnRate and ReturnCount.
 Visualize distributions with histograms, boxplots, and heatmaps to detect anomalies.
 Visual Example: Correlation Matrix Heatmap
-<img src="DataMiningProjectGraphs/CorelationMatrixHeatMap.PNG" alt="Correlation Matrix Heatmap" width="600">
+<img src="DataMiningProjectGraphs/LogTotalPriceDist.PNG" alt="Log Total Price Distribution" width="600">
 
 3. RFM Metrics & Feature Engineering
 Recency: Days since the last purchase.
@@ -50,7 +50,7 @@ Build a GradientBoostingRegressor to predict AvgOrderValue using features like R
 Perform hyperparameter tuning with GridSearchCV and compare with baseline models (RandomForest, XGBoost, etc.).
 Evaluate performance with metrics like RMSE and feature importance.
 Visual Example: RMSE and Feature Importance
-<img src="DataMiningProjectConsoleOutputs/RMSE-FeatureImportance.PNG" alt="Predictive Modeling RMSE and Features" width="600">
+<img src="DataMiningProjectConsoleOutputs/PredictiveAVGValue.PNG" alt="Predictive Avg Order Value" width="600">
 
 
 7. Time-Series Forecasting (Prophet)
