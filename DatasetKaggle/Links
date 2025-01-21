@@ -1,0 +1,59 @@
+Original Dataset;
+
+## Dataset
+This project uses the [Customer Segmentation Dataset](https://www.kaggle.com/datasets/yasserh/customer-segmentation-dataset) from Kaggle.
+Please download the dataset and place it in the `data` folder of this project.
+
+*****************************************************************************************************************************
+General Information About the Online Retail Dataset
+The Online Retail dataset contains sales records of an online retail business. This dataset is highly suitable for data science projects such as customer behavior analysis, customer segmentation, and product recommendation system development.
+
+Structure of the Dataset
+Number of Rows: 541,909 transaction records (before cleaning)
+Number of Columns: 8 core features
+File Type: Excel (.xlsx)
+
+Features in the Dataset
+1.) InvoiceNo (Invoice Number):
+
+Contains a unique invoice number for each transaction.
+If the invoice number starts with "C", it indicates a cancellation (return) transaction.
+2.) StockCode (Stock Code):
+
+A unique product code for each sold item.
+3.) Description (Product Description):
+
+A brief description of the sold product.
+4.) Quantity:
+
+Indicates the quantity of the sold product.
+Negative values represent returned products.
+5.) InvoiceDate (Invoice Date):
+
+Date and time information when the transaction occurred.
+6.) UnitPrice (Unit Price):
+
+The price per unit of the sold product (in GBP).
+7.) CustomerID (Customer ID):
+
+A unique identifier for the customer who performed the transaction.
+There may be missing values in this field.
+8.) Country:
+
+The country where the customer is located.
+Characteristics of the Dataset
+Period:
+
+The dataset covers transactions between December 1, 2010, and December 9, 2011.
+Geographical Distribution:
+
+Most transactions involve orders from the United Kingdom, but the dataset also includes customers from other parts of Europe and the world.
+Return Transactions:
+
+Invoice numbers starting with "C" and negative Quantity values indicate return transactions.
+Missing Data:
+
+Missing values are present in the CustomerID column. These records are not used in customer-based analyses.
+Transaction Diversity:
+
+The dataset includes various products, prices, and customer groups.
